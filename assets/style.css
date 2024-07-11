@@ -53,34 +53,25 @@ li {
     font-size: 30px;
 }
 
-.img-container1 {
-    position: relative;
-    left: 20px;
+aside {
     display: block;
-    width: 500px;
 }
 
-.img-container2 {
-    position: relative;
-    left: 0 auto;
-    display: block;
-    width: 500px;
+img {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    float: right;
+
 }
 
 #img1 {
-    display: flex;
-    flex: auto;
-    position: relative;
-    padding: 60px;
-    margin: 1px;
-
+    height: 400px;
+    width: 400px;
+    padding: 0;
 }
 
-#img2 {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
 
 .subheader,
 .section-header,
@@ -105,7 +96,6 @@ li {
     padding: 20px;
     margin: 5px;
     align-content: center;
-    justify-content: center;
     border-style: none solid none none;
     border-color: var(--body-color);
     width: 20%;
@@ -115,12 +105,28 @@ li {
     align-items: center;
     justify-content: center;
     display: flex;
+    position: relative;
     padding: 20px;
-    width: 60%;
-    float: right;
+    width: 70%;    
 
 }
 
+#website-label {
+    display: flex;
+    padding: 20px;
+    margin: 2px;
+    background-color: var(--body-color);
+    color: var(--header-color);
+    justify-content: center;
+}
+
+#work-section1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+}
+    
 #links {
     color: var(--header-color);
     text-decoration-thickness: 3px;
@@ -130,6 +136,45 @@ li {
     font-weight: bold;
 }
 
+#self {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+
+@media screen and (max-width: 1152px) {
+    header,
+    h1,
+    nav,
+    div,
+    section {
+        flex-direction: column;
+    }
+
+       .section-header {
+        border-style: none none solid none;
+    }
+
+    nav {
+        background-color: rgb(72, 82, 104);
+        margin: 0;
+    }
+
+    .subheader,
+    .subheader-contents {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        left: 0;
+    }
+
+}
+
+
 @media screen and (max-width: 972px) {
     nav {
         background-color: rgb(72, 82, 104);
@@ -137,8 +182,12 @@ li {
         margin: 0;
     }
 
-    .subheader {
+    .subheader,
+    .subheader-contents {
+        position: relative;
+        display: flex;
         flex-direction: column;
+        justify-content: left;
     }
 
   }
