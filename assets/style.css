@@ -83,6 +83,9 @@ img {
     margin: 0;
     padding: 20px;
     position: relative;
+    color: var(--header-color);
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .subheader-contents {
