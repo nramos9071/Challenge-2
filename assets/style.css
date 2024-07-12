@@ -90,7 +90,7 @@ img {
 
 .subheader-contents {
     position: relative;
-    left: 850px;
+    left: 600px;
     justify-content: right;
     
 }
@@ -170,15 +170,17 @@ img {
     .subheader-contents {
         position: relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         justify-content: left;
         left: 0;
+        
     }
 
 }
 
 
 @media screen and (max-width: 972px) {
+ 
     nav {
         background-color: rgb(72, 82, 104);
         width: 100%;
@@ -197,23 +199,3 @@ img {
 
 
 
-
-@media screen and (max-width: 750px) {
-    header,
-    h1,
-    nav,
-    div,
-    section {
-        flex-direction: column;
-    }
-
-       .section-header {
-        border-style: none none solid none;
-    }
-
-    nav {
-        background-color: rgb(72, 82, 104);
-        margin: 0;
-    }
-
-}
