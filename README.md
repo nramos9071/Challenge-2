@@ -6,7 +6,7 @@ A website designed to show off my work as a web developer. This website gives an
 
 ## Installation
 
-N/A
+(https://nramos9071.github.io/Challenge-2/)
 
 ## Usage
 
