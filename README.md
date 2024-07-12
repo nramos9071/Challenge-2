@@ -10,12 +10,9 @@ N/A
 
 ## Usage
 
-<<<<<<< HEAD
 This website is meant for potential employers to review my work to see the value I can add.
-=======
-This Website allows for customers to easily navigate through the benefits of working with Horiseon.
->>>>>>> 77685a0a37f221645e860f55c2897661a5190eb0
 
+![Screenshot of the website](./assets/_C__Users_Nick_Desktop_bootcamp_challenge-2_index.html.png)
 
 
 ## Credits
